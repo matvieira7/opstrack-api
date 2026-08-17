@@ -10,6 +10,14 @@ def home():
         "status": "online"
     })
 
+
+@app.route("/status")
+def status():
+    return jsonify({
+        "status": "online"
+    })
+
+
 #teste do diff
 if __name__ == "__main__":
     app.run(debug=True)
