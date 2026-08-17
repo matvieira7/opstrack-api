@@ -10,6 +10,6 @@ def home():
         "status": "online"
     })
 
-
+#teste do diff
 if __name__ == "__main__":
     app.run(debug=True)
