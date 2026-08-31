@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return jsonify({
         "service": "OpsTrack API",
-        "status": "online"
+        "status": "up"
     })
 
 
