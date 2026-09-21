@@ -39,6 +39,6 @@ def tickets():
     ])
 
 
-#teste do diff
+# teste do diff
 if __name__ == "__main__":
     app.run(debug=True)
