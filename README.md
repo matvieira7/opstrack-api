@@ -1,3 +1,5 @@
+![CI](https://github.com/matvieira7/opstrack-api/actions/workflows/ci.yml/badge.svg)
+
 # OpsTrack API
 
 A **OpsTrack API** é uma API desenvolvida em Python com Flask para simular o gerenciamento de chamados e informações de um serviço. O projeto também utiliza ferramentas de qualidade de código para manter um padrão durante o desenvolvimento.
@@ -243,4 +245,3 @@ A equipe definiu como meta mínima **85%** de cobertura.
 ```bash
 pytest --cov=app --cov-fail-under=85
 ```
-
