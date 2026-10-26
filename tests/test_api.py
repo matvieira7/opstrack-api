@@ -53,4 +53,3 @@ def test_versao_retorna_versao_atual(client):
 
     assert resposta.status_code == 200
     assert resposta.get_json()['versao'] == '1.0.0'
-    
